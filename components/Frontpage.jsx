@@ -4,17 +4,13 @@ import '../css/fonts.css';
 import '../css/main.scss';
 import 'font-awesome/scss/font-awesome.scss';
 import 'zenscroll';
-import Helmet from 'react-helmet';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
-import { config } from 'config';
 
 class Index extends React.Component {
   static propTypes = {
     data: React.PropTypes.object,
-    language: React.PropTypes.string,
-    routes: React.PropTypes.object,
-    location: React.PropTypes.object
+    language: React.PropTypes.string
   };
 
   componentDidMount() {
@@ -32,16 +28,10 @@ class Index extends React.Component {
   }
 
   render () {
-    const data = this.props.routes[this.props.routes.length - 1].page.data;
-    const pathArray = this.props.location.pathname.split('/');
-    const language = pathArray[1];
+    const data = this.props.data;
 
     return (
       <div>
-        <Helmet
-          title={`${config.siteTitle}`}
-        />
-
         <div id="hero">
           <div className="background" />
 
@@ -51,14 +41,14 @@ class Index extends React.Component {
               <div className="language-selector">
                 <Link
                   to={prefixLink('/')}
-                  className={language === '' && 'active'}
+                  className={this.props.language === '' && 'active'}
                 >
                   NL
                 </Link>
                 <span> | </span>
                 <Link
                   to={prefixLink('/en/')}
-                  className={language === 'en' && 'active'}
+                  className={this.props.language === 'en' && 'active'}
                 >
                   EN
                 </Link>
