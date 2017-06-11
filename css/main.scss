@@ -1,0 +1,338 @@
+body {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  color: #33495F;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #33495F;
+
+  i {
+    padding-right: 5px;
+  }
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+
+span.medium {
+  font-weight: 500;
+}
+
+span.bold {
+  font-weight: 600;
+}
+
+.button {
+  padding: 7px 10px;
+  background: #33495F;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.50);
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+
+  i {
+    font-size: 1.3em;
+    padding-right: 5px;
+  }
+}
+
+.container {
+  max-width: 1056px;
+  margin: 0 auto;
+  width: 100%;
+
+  .content {
+    padding:  0 65px;
+    margin: 50px 0;
+
+    @media (max-width: 1280px) {
+      padding: 0 64px;
+    }
+    @media (max-width: 1024px) {
+      padding: 0 56px;
+    }
+    @media (max-width: 920px) {
+      padding: 0 48px;
+    }
+    @media (max-width: 768px) {
+      padding: 0 40px;
+    }
+    @media (max-width: 414px) {
+      padding: 0 28px;
+    }
+
+  }
+}
+
+#hero {
+  position: relative;
+  margin-bottom: 30px;
+
+  .background {
+    background-image: linear-gradient(-180deg, #192858 0%, #5EBDE1 100%);
+    background-repeat: no-repeat;
+    transform: skewY(-2deg);
+    transform-origin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+
+    @media (max-width: 1280px) {
+      transform: skewY(-3deg);
+    }
+    @media (max-width: 1024px) {
+      transform: skewY(-4deg);
+    }
+    @media (max-width: 920px) {
+      transform: skewY(-5deg);
+    }
+    @media (max-width: 768px) {
+      transform: skewY(-6deg);
+    }
+    @media (max-width: 414px) {
+      transform: skewY(-7deg);
+    }
+
+  }
+
+  .container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 50px;
+
+    .language-selector {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &.active {
+          font-weight: 600;
+          text-decoration: none;
+        }
+      }
+    }
+
+    @media (min-width: 1400px) {
+      padding-bottom: 80px;
+    }
+
+    #planl-logo-hero {
+      width: 85px;
+      height: 27px;
+    }
+
+    h1 {
+      margin-top: 2em;
+      color: white;
+      font-size: 2.2em;
+    }
+
+    p {
+      margin: 1em 0 2em 0;
+      max-width: 500px;
+    }
+  }
+}
+
+.section {
+  p {
+    margin: 10px 0;
+  }
+
+  &#what-we-do .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    >div {
+      max-width: 400px;
+
+      @media (max-width: 1280px) {
+        max-width: 400px;
+      }
+      @media (max-width: 1024px) {
+        max-width: 400px;
+      }
+      @media (max-width: 920px) {
+        max-width: 400px;
+      }
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+      @media (max-width: 414px) {
+        max-width: 100%;
+      }
+
+      >div {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  &#partner-section {
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    #partner-logos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        width: 280px;
+        margin: 1em;
+      }
+    }
+  }
+
+  &#projects-section {
+    .content {
+      @media (max-width: 600px) {
+        padding: 10px;
+      }
+
+      >h1 {
+        @media (max-width: 600px) {
+          padding: 0 18px;
+        }
+      }
+    }
+
+    .project {
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,0.50);
+      border-radius: 2px;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      >div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (min-width: 600px) {
+          flex: 1;
+        }
+      }
+
+      .project-content {
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      img {
+        margin-top: 20px;
+      }
+
+      &#project-planl-care {
+        background: #5ED4C2;
+      }
+      &#project-meetyourtwin {
+        background: #3A9BDB;
+      }
+      &#project-ggd-twente {
+        background: #E71A17;
+      }
+    }
+  }
+}
+
+div#planl-map {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  background: url("../images/planl-map.png") no-repeat;
+  background-size: cover;
+}
+
+#footer {
+  margin: 0;
+  height: 300px;
+  background: #34495E;
+  color: white;
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
+    #planl-logo-footer {
+      width: 85px;
+      height: 27px;
+      position: absolute;
+      top: 48px;
+      right: 48px;
+
+      @media (max-width: 1280px) {
+        top: 48px;
+        right: 48px;
+      }
+      @media (max-width: 1024px) {
+        top: 48px;
+        right: 48px;
+      }
+      @media (max-width: 920px) {
+        top: 48px;
+        right: 48px;
+      }
+      @media (max-width: 768px) {
+        top: 40px;
+        right: 40px;
+      }
+      @media (max-width: 414px) {
+        top: 28px;
+        right: 28px;
+      }
+    }
+
+    .content {
+      h1 {
+        font-weight: 400;
+        max-width: 300px;
+      }
+
+      hr {
+        margin: 10px 0;
+        width: 144px;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

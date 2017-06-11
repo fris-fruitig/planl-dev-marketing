@@ -1,0 +1,37 @@
+hero:
+  title:
+    firstLine: The best
+    secondLine: digital products.
+  content: We’re a fresh development agency operating from Enschede, The Netherlands. We help companies from idea to stunning & user-friendly digital products.
+  button: See what we do
+
+about:
+  what:
+    title: What we do?
+    content: Together with our clients we develop user-friendly native iOS and Android apps, webapplications, scalable infrastructures and many more digital products.
+    button: Take a look at our work
+  way:
+    title: The way we do it?
+    content:
+      firstParagraph: Planl focusses not only on delivering software, but also on fulfilling the actual needs. We analyse, advise, build and deliver to help you tackle your challenges.
+      secondParagraph: Based on the Agile methodology, we develop products in iterative steps. This means we continually deliver new versions during the process to get feedback as soon as possible. We strongly believe in a clear communication to get the best results possible.
+
+partners:
+  title: Some of our partners
+
+work:
+  title: Our work
+  care:
+    title: Planl Care
+    meta: Planl Care, a Planl product.
+    content: With Planl Care we radically change the way patient and health care providers interact with each other.
+  meetyourtwin:
+    title: MeetYourTwin
+    content: In cooperation with the UMCG and the University of Twente, Planl developed an application to manage events and connect health-i-care participants.
+  ggdtwente:
+    title: GGD Twente
+    content: Planl is working together with the GGD Twente to develop an eHealth application that helps clients prepare for their appointments. More details will follow soon.
+
+contact:
+  title: Coffee?
+  content: Let’s talk, our door is always open. Together we turn your idea into reality.

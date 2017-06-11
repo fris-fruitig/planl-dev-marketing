@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Frank -- co-founder -- @frankvanderhoek
+  Arthur -- co-founder -- @arthurvi
+
+# THANKS
+
+  Planl team
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, JS

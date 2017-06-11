@@ -1,0 +1,37 @@
+hero:
+  title:
+    firstLine: De beste
+    secondLine: digitale producten.
+  content: Wij zijn een jonge ontwikkelstudio uit Enschede. We helpen bedrijven van een idee naar fantastische en gebruiksvriendelijke digitale producten.
+  button: Bekijk wat we doen
+
+about:
+  what:
+    title: Wat we doen?
+    content: Samen met onze klanten ontwikkelen we native iOS en Android apps, webapplicaties, schaalbare infrastructuren en meer digitale producten.
+    button: Bekijk ons werk
+  way:
+    title: Hoe we het doen?
+    content:
+      firstParagraph: Planl focust niet alleen op het leveren van software, maar ook op het vervullen van de daadwerkelijke behoefte. We analyseren, adviseren, bouwen en leveren om jou te helpen met je digitale uitdagingen.
+      secondParagraph: Met behulp van de Agile methode ontwikkelen we software in iteratieve stappen. Dit betekent dat we gedurende het proces continu nieuwe versies opleveren om zo snel mogelijk feedback te krijgen. We geloven dat een duidelijke communicatie de beste resultaten oplevert.
+
+partners:
+  title: Enkele partners van Planl
+
+work:
+  title: Ons werk
+  care:
+    title: Planl Care
+    meta: Planl Care, een Planl product.
+    content: Met Planl zorg vergemakkelijken we het contact tussen de patiënt en de eerstelijnszorg. We gaan hierbij voor een zeer gebruiksvriendelijke ervaring voor de patiënt, waarmee we ook nog een hogere efficientie bereiken voor de zorgverlener.
+  meetyourtwin:
+    title: MeetYourTwin
+    content: In samenwerking met het UMCG en de Universiteit Twente heeft Planl een applicatie ontwikkeld om evenementen te beheren en health-i-care deelnemers te verbinden.
+  ggdtwente:
+    title: GGD Twente
+    content: Planl werkt samen met de GGD Twente om een eHealth app (iOS en Android) te ontwikkelen welke cliënten helpt zich voor te bereiden op hun consult. Meer details volgen.
+
+contact:
+  title: Bakkie?
+  content: Onze deur staat altijd open voor een goed idee.

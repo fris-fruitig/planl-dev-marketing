@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/zorg/ios              https://rink.hockeyapp.net/apps/0ca7f0630344415887bff669eb5f93c1/app_versions/1
+/zorg/android          https://rink.hockeyapp.net/apps/ca39d746be8941ccb65a68411d0f51c7
+/ggd/android           https://rink.hockeyapp.net/apps/cdf025587f08445ba4fa3d6e6aa04fcf
+/ggd/ios               https://rink.hockeyapp.net/apps/5c403f5cc4da412eb5649a880e2c155e
